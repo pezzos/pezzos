@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__consult7__consultation",
+      "mcp__github__get_me",
+      "mcp__github__search_repositories",
+      "Bash(gh repo list:*)",
+      "mcp__github__get_file_contents",
+      "mcp__github__get_file_contents",
+      "mcp__github__get_file_contents",
+      "mcp__github__get_file_contents",
+      "Bash(mkdir:*)",
+      "mcp__git__git_status",
+      "mcp__git__git_diff_unstaged",
+      "mcp__git__git_diff_staged",
+      "mcp__git__git_log",
+      "mcp__memory__search_nodes",
+      "mcp__git__git_add"
+    ],
+    "deny": []
+  }
+}
