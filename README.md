@@ -1,3 +1,6 @@
+🤖 **This CV is automatically generated from this GitHub repositories using Claude AI commands I created!** 
+Want to build your own? [**→ See how it works**](README-GITHUB_CV.md) 
+
 # Alexandre "Pezzos" Pezzotta
 
 > Site Reliability Engineer | AI Enthusiast | Developer Tools Creator  
