@@ -15,7 +15,9 @@
       "mcp__git__git_diff_staged",
       "mcp__git__git_log",
       "mcp__memory__search_nodes",
-      "mcp__git__git_add"
+      "mcp__git__git_add",
+      "mcp__git__git_commit",
+      "mcp__memory__create_entities"
     ],
     "deny": []
   }
