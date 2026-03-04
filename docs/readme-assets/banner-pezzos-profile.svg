@@ -1,0 +1,27 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Freelance AI DevOps SRE profile banner</title>
+  <desc id="desc">Bilingual freelance profile banner showing AI, DevOps and SRE services with realistic delivery commitments.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1220" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="140" y1="84" x2="1140" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1280" height="320" rx="26" fill="url(#bg)"/>
+  <rect x="72" y="74" width="1136" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="72" y="128" fill="#F8FAFC" font-size="42" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">Freelance AI | DevOps | SRE</text>
+  <text x="72" y="164" fill="#C7D2FE" font-size="20" font-family="'Segoe UI', Tahoma, Arial, sans-serif">FR/EN support for SMB/TPE/PME - manual operations, clear scope, documented delivery.</text>
+  <g font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-size="18" font-weight="600">
+    <rect x="72" y="198" width="250" height="52" rx="12" fill="#111827" stroke="#334155"/>
+    <text x="96" y="231" fill="#93C5FD">Audit ponctuel / Ponctual audit</text>
+    <rect x="338" y="198" width="306" height="52" rx="12" fill="#111827" stroke="#334155"/>
+    <text x="362" y="231" fill="#86EFAC">Support recurrent / Recurring support</text>
+    <rect x="660" y="198" width="286" height="52" rx="12" fill="#111827" stroke="#334155"/>
+    <text x="684" y="231" fill="#FDE68A">Runbooks + change notes</text>
+  </g>
+  <text x="72" y="286" fill="#94A3B8" font-size="16" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Scope is explicit. SLA/performance guarantees require prior agreement.</text>
+</svg>

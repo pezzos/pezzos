@@ -1,201 +1,81 @@
-🤖 **This CV is automatically generated from this GitHub repositories using Claude AI commands I created!** 
-Want to build your own? [**→ See how it works**](README-GITHUB_CV.md) 
+# Freelance AI | DevOps | SRE
 
-# Alexandre "Pezzos" Pezzotta
+![Freelance AI DevOps SRE banner](docs/readme-assets/banner-pezzos-profile.svg)
 
-> Site Reliability Engineer | AI Enthusiast | Developer Tools Creator  
-> Building practical solutions for developers and automating workflows with AI
+Main site: https://pezzos.com
 
-📍 Lyon, France | 🚀 24 Public Repositories | ⭐ 11 GitHub Stars | 👥 1 Follower
+## EN
 
----
+I help SMBs and small teams reduce manual operations with pragmatic AI, DevOps, and SRE work.
 
-## 🎯 About Me
+### What I Do
 
-I'm a passionate site reliability engineer who use his spare time to build developer tools, AI integrations, and automation solutions. My projects focus on solving real-world problems with clean, efficient code and user-centric design. I particularly enjoy working with AI technologies, creating developer productivity tools, and optimizing workflows.
+- `One-off audit`: identify bottlenecks in workflows, tooling, reliability, and delivery.
+- `Implementation sprint`: deliver focused automation and safer operations.
+- `Recurring support`: weekly or monthly follow-up to keep improvements reliable.
 
-## 🏆 Featured Projects
+### Selected Open-Source Work
 
-### 🥇 [cursor-openrouter-proxy](https://github.com/pezzos/cursor-openrouter-proxy) ⭐ 7 stars
-**A high-performance HTTP/2 proxy enabling Cursor IDE to use any LLM through OpenRouter - seamless AI model switching for developers**
+1. [cursor-openrouter-proxy](https://github.com/pezzos/cursor-openrouter-proxy) - OpenAI-compatible HTTP/2 proxy for Cursor with OpenRouter routing.
+2. [remote-mcp-proxy](https://github.com/pezzos/remote-mcp-proxy) - Dockerized Go proxy exposing local MCP servers as remote endpoints.
+3. [Whisper-to-Notion](https://github.com/pezzos/Whisper-to-Notion) - Voice capture flow to structured Notion entries via Whisper/GPT/Shortcuts.
+4. [jsonl_dataset_generator](https://github.com/pezzos/jsonl_dataset_generator) - Multi-provider JSONL dataset draft generation for fine-tuning pipelines.
+5. [PezzosCode](https://github.com/pezzos/PezzosCode) - Docs-first toolkit for deterministic AI-assisted delivery workflows.
+6. [raycast-ai-assistant](https://github.com/pezzos/raycast-ai-assistant) - Raycast command suite for dictation and AI prompt workflows.
 
-A production-ready proxy that seamlessly integrates any AI model with Cursor IDE, making advanced language models accessible to developers through familiar interfaces.
+### Why Teams Work With Me
 
-**Key Achievements:**
-- HTTP/2 performance optimization
-- Dynamic model switching without restart
-- Full OpenAI API compatibility
-- Docker and Traefik integration
+- Clear scope and practical execution.
+- Traceable changes (runbooks, checklists, and written notes).
+- Explicit limits, no inflated claims.
 
-*Technologies: Go, Docker, AI, Proxy, HTTP/2, LLM, DevTools*
+### Contact
 
----
+- Website: https://pezzos.com
+- GitHub: [@pezzos](https://github.com/pezzos)
+- LinkedIn: [Alexandre Pezzotta](https://www.linkedin.com/in/alexandrepezzotta)
 
-### 🥈 [Whisper-to-Notion](https://github.com/pezzos/Whisper-to-Notion) ⭐ 2 stars
-**AI-powered voice-to-text note-taking system integrating Whisper, GPT, and Notion with iOS Shortcuts**
+### Credibility Limits
 
-Transforms voice recordings into intelligently categorized and enriched notes in Notion, enabling effortless idea capture and organization on-the-go.
+- No legal, tax, or compliance certification service.
+- No unconditional SLA or performance guarantee.
+- Emergency and off-hours support require explicit prior agreement.
+- Project examples are implementation snapshots, not universal outcome guarantees.
 
-**Key Achievements:**
-- Voice-to-text with AI enrichment
-- iOS Shortcuts integration
-- Automatic categorization and insights
-- Multi-destination routing based on content
+## FR
 
-*Technologies: Python, AI, Whisper, GPT, Notion, iOS, Automation*
+J'aide les TPE/PME et petites equipes a reduire les taches manuelles avec une approche pragmatique en IA, DevOps et SRE.
 
----
+### Ce Que Je Fais
 
-### 🥉 [jsonl_dataset_generator](https://github.com/pezzos/jsonl_dataset_generator) ⭐ 1 star
-**Multi-provider AI dataset generator for LLM fine-tuning with automated Q&A pair creation**
+- `Audit one-off`: identifier les points de friction sur les workflows, outils, fiabilite et delivery.
+- `Sprint d'implementation`: livrer des automatisations ciblees et des operations plus sures.
+- `Accompagnement recurrent`: suivi hebdomadaire ou mensuel pour maintenir les gains dans la duree.
 
-Streamlines the creation of high-quality training datasets by leveraging multiple AI providers to generate diverse and comprehensive Q&A pairs from topics.
+### Realisations Open Source Selectionnees
 
-**Key Achievements:**
-- Multiple AI provider support (OpenAI, Anthropic, Google)
-- Automated question generation
-- JSONL export for fine-tuning
-- Web interface for dataset management
+1. [cursor-openrouter-proxy](https://github.com/pezzos/cursor-openrouter-proxy) - Proxy HTTP/2 compatible OpenAI pour Cursor avec routage OpenRouter.
+2. [remote-mcp-proxy](https://github.com/pezzos/remote-mcp-proxy) - Proxy Go dockerise exposant des serveurs MCP locaux comme endpoints distants.
+3. [Whisper-to-Notion](https://github.com/pezzos/Whisper-to-Notion) - Flux de capture vocale vers des entrees Notion structurees via Whisper/GPT/Shortcuts.
+4. [jsonl_dataset_generator](https://github.com/pezzos/jsonl_dataset_generator) - Generation de brouillons de jeux JSONL multi-provider pour des pipelines de fine-tuning.
+5. [PezzosCode](https://github.com/pezzos/PezzosCode) - Toolkit docs-first pour des workflows de livraison IA assistes et deterministes.
+6. [raycast-ai-assistant](https://github.com/pezzos/raycast-ai-assistant) - Suite de commandes Raycast pour workflows de dictee et prompts IA.
 
-*Technologies: JavaScript, AI, Machine Learning, Dataset, LLM, Fine-tuning*
+### Pourquoi Travailler Avec Moi
 
----
+- Perimetre clair et execution concrete.
+- Changements tracables (runbooks, checklists, notes ecrites).
+- Limites explicites, sans promesse gonflee.
 
-### 🏅 [plex-pi](https://github.com/pezzos/plex-pi) ⭐ 1 star
-**Complete Raspberry Pi Plex Media Server setup with automated backups and system optimization**
+### Contact
 
-Production-ready Plex deployment on Raspberry Pi with enterprise-grade features including automated backups, hardware optimization, and maintenance scripts.
+- Site: https://pezzos.com
+- GitHub: [@pezzos](https://github.com/pezzos)
+- LinkedIn: [Alexandre Pezzotta](https://www.linkedin.com/in/alexandrepezzotta)
 
-**Key Achievements:**
-- Automated installation scripts
-- S3 backup integration
-- Hardware optimization (SSD boot, fan control)
-- System maintenance automation
+### Limites de Credibilite
 
-*Technologies: Raspberry Pi, Plex, DevOps, Automation, Docker, Media Server*
-
----
-
-### 🛠️ [raycast-ai-assistant](https://github.com/pezzos/raycast-ai-assistant)
-**AI-powered productivity tools collection for Raycast**
-
-Comprehensive suite of AI-powered tools designed to enhance daily productivity through Raycast's extensible platform.
-
-**Key Achievements:**
-- AI-powered automation
-- Productivity enhancement
-- Raycast integration
-
-*Technologies: TypeScript, AI, Raycast, Productivity, macOS*
-
----
-
-### 🔧 [remote-mcp-proxy](https://github.com/pezzos/remote-mcp-proxy)
-**Remote MCP proxy service**
-
-*Technologies: Go, Proxy, MCP*
-
----
-
-### 🐳 [ollama-docker-traefik](https://github.com/pezzos/ollama-docker-traefik)
-**Ollama deployment with Docker and Traefik**
-
-*Technologies: Docker, Traefik, Ollama, AI*
-
----
-
-### 🗳️ [ruby](https://github.com/pezzos/ruby)
-**Containerized Ruby development environment**
-
-*Technologies: Ruby, Docker, Development Environment*
-
----
-
-### 🌐 [wpzo-hosting](https://github.com/pezzos/wpzo-hosting)
-**Hosting automation scripts**
-
-*Technologies: Shell, Hosting, Automation*
-
----
-
-## 💻 Technical Expertise
-
-### **Languages & Frameworks**
-- **Go** - High-performance proxies, microservices, system tools
-- **Python** - AI/ML, automation, data processing, voice processing
-- **JavaScript** - Dataset generation, AI integrations, web applications
-- **TypeScript** - Productivity tools, browser extensions, desktop apps
-- **Shell** - System automation, deployment scripts, hosting management
-- **Ruby** - Development environments, containerized solutions
-
-### **Specializations**
-- **AI Integration** - LLM proxies, voice-to-text, dataset generation, AI-powered tools
-- **Developer Productivity** - IDE integrations, automation tools, workflow optimization
-- **DevOps & Infrastructure** - Docker containerization, Traefik proxies, system optimization
-- **Media & Hosting** - Media server deployment, hosting automation, backup solutions
-
-### **Technologies & Platforms**
-- **AI/ML**: OpenAI API, Anthropic, Whisper, GPT, LLM fine-tuning, MCP
-- **Containerization**: Docker, Docker Compose, Traefik reverse proxy
-- **Development**: Raycast extensions, iOS Shortcuts, HTTP/2 optimization
-- **Infrastructure**: Raspberry Pi, Plex Media Server, automated backups
-- **Productivity**: Notion integrations, voice processing, task management
-
-## 🌟 What Sets Me Apart
-
-- **Problem-Solving Focus**: Each project addresses real developer pain points
-- **Production-Ready Code**: Emphasis on performance, reliability, and maintainability
-- **AI-First Approach**: Leveraging cutting-edge AI to create practical solutions
-- **Open Source Commitment**: Sharing knowledge and tools with the developer community
-- **Cross-Platform Thinking**: Building solutions that work across different environments
-
-## 🔜 Future Projects
-
-- **AI Meal Planner "Grandma's Kitchen"**: Personalized meal planning with GPT integration
-- **Interactive Alarm Clock for Kids**: Gamified morning routine with parental controls
-- **AI Keyboard for iOS**: Context-aware text predictions with privacy focus
-- **Automated Crypto Investor**: ML-powered trading with risk management
-
-## 🤝 Let's Connect
-
-I'm always interested in collaborating on innovative projects, especially those involving AI integration, developer productivity tools, or automation solutions. Whether you're looking to solve a technical challenge or explore new ideas, I'd love to connect!
-
-## 💡 Philosophy & Approach:
-I believe in:
-- Sustainable and maintainable solutions
-- Open source contribution and knowledge sharing
-- Continuous learning and improvement
-- Building tools that solve real problems
-- Environmental consciousness in tech
-
-## 🎉 Fun Facts & Personal Interests:
-
-**Projects Creator & Innovator**
-I thrive in the ideation phase, finding creative solutions to complex problems. While I have many projects in various stages, each one teaches me something valuable about development, user needs, and project management.
-
-**AI Enthusiast** 🤖
-I'm fascinated by AI's potential to enhance our daily lives. From smart home automation to productivity tools, I'm always exploring new ways to integrate AI meaningfully and ethically.
-
-**DIY Tech Lover** 🛠️
-My home is my testing ground for new technologies. I maintain a sophisticated home lab running various services and experiments, always prioritizing security and efficiency. My wife is sometime enjoying it and sometime, she doesn't understand why we can't watch the tv, again.
-
-**Yoga and HIIT Hybrid** 🧘‍♂️🏋️
-Finding balance is key - both in code and in life. My fitness journey has evolved from pure calisthenics to a harmonious blend of yoga and HIIT, teaching me the importance of adaptability and continuous improvement.
-
-**Apple Ecosystem Enthusiast** 🍎
-Passionate about Apple's ecosystem and its integration capabilities. I enjoy creating tools and automation that enhance the Apple experience while maintaining privacy and security.
-
-**Note-Taking Learner** 📝
-I’m obsessed with creating the perfect note-taking assistant. Organization is key, especially when your brain is buzzing with ideas! 
-
-**Contact:**
-- 🐙 GitHub: [@pezzos](https://github.com/pezzos)
-- 💼 LinkedIn: [Alexandre Pezzotta](https://www.linkedin.com/in/alexandrepezzotta)
-- 📧 Email: Available on GitHub profile
-- 🌍 Location: Lyon, France
-
----
-
-> "The best way to predict the future is to create it." - Peter Drucker
-
-*This portfolio showcases my commitment to building practical, high-quality software that makes developers' lives easier. Each project reflects my passion for clean code, innovative solutions, and community-driven development.*
+- Pas de service de certification legale, fiscale ou compliance.
+- Pas de garantie inconditionnelle de SLA ou de performance.
+- Le support urgence et hors horaires requiert un accord explicite prealable.
+- Les exemples projets sont des instantanes d'implementation, pas des garanties de resultat universel.

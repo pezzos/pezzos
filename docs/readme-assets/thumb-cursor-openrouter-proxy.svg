@@ -1,0 +1,18 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">cursor-openrouter-proxy project thumbnail</title>
+  <desc id="desc">Go proxy project card for Cursor and OpenRouter interoperability.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="34" y="34" width="572" height="54" rx="10" fill="#111827" stroke="#334155"/>
+  <text x="56" y="69" fill="#E2E8F0" font-size="26" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">cursor-openrouter-proxy</text>
+  <text x="56" y="126" fill="#7DD3FC" font-size="21" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Go | Docker | HTTP/2 proxy</text>
+  <text x="56" y="171" fill="#CBD5E1" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">OpenAI-compatible bridge for Cursor</text>
+  <text x="56" y="206" fill="#CBD5E1" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">with runtime model routing via OpenRouter.</text>
+  <rect x="56" y="258" width="170" height="40" rx="10" fill="#0C4A6E"/>
+  <text x="78" y="284" fill="#E0F2FE" font-size="18" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="600">Production-minded</text>
+</svg>

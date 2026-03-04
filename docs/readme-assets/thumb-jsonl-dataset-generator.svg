@@ -1,0 +1,18 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">jsonl_dataset_generator project thumbnail</title>
+  <desc id="desc">JSONL dataset generation card for multi-provider LLM fine-tuning workflows.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3F2A0F"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="34" y="34" width="572" height="54" rx="10" fill="#1F2937" stroke="#B45309"/>
+  <text x="56" y="69" fill="#FEF3C7" font-size="26" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">jsonl_dataset_generator</text>
+  <text x="56" y="126" fill="#FCD34D" font-size="21" font-family="'Segoe UI', Tahoma, Arial, sans-serif">JavaScript | JSONL | Multi-provider AI</text>
+  <text x="56" y="171" fill="#F3F4F6" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Generate training-ready dataset drafts</text>
+  <text x="56" y="206" fill="#F3F4F6" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">for human-reviewed fine-tuning pipelines.</text>
+  <rect x="56" y="258" width="214" height="40" rx="10" fill="#92400E"/>
+  <text x="80" y="284" fill="#FFFBEB" font-size="18" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="600">Human review required</text>
+</svg>

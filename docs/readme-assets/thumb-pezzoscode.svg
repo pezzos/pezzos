@@ -1,0 +1,18 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PezzosCode project thumbnail</title>
+  <desc id="desc">Docs-first AI delivery toolkit card with deterministic workflow mention.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E1B4B"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="34" y="34" width="572" height="54" rx="10" fill="#111827" stroke="#6366F1"/>
+  <text x="56" y="69" fill="#EEF2FF" font-size="30" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">PezzosCode</text>
+  <text x="56" y="126" fill="#C7D2FE" font-size="21" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Python | Markdown | AI workflow tooling</text>
+  <text x="56" y="171" fill="#E5E7EB" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Docs-first repo bootstrap with</text>
+  <text x="56" y="206" fill="#E5E7EB" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">orchestrator contracts and checks.</text>
+  <rect x="56" y="258" width="199" height="40" rx="10" fill="#4338CA"/>
+  <text x="80" y="284" fill="#EEF2FF" font-size="18" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="600">Process reliability</text>
+</svg>

@@ -1,6 +1,7 @@
 # Repository Management for CV Generation
 
 This file documents all your public repositories with metadata to control what appears in your CV/README.md.
+`README.md` should only surface factual, evidence-based claims and explicit limits.
 
 ## Configuration
 
@@ -10,6 +11,11 @@ For each repository, you can configure:
 - `custom_description`: Override the default description
 - `highlights`: Key achievements/features to highlight
 - `tags`: Technology tags for categorization
+
+Selection rule used by `README.md`:
+- Include repos where `include_in_cv: true`
+- Order by `priority` ascending for featured projects
+- Keep summaries grounded in implementation evidence from each repository
 
 ## Repositories (sorted by stars, then by interest)
 
@@ -21,12 +27,11 @@ For each repository, you can configure:
 - **Last Updated**: 2025-06-16
 - **include_in_cv**: true
 - **priority**: 1
-- **custom_description**: A high-performance HTTP/2 proxy enabling Cursor IDE to use any LLM through OpenRouter - seamless AI model switching for developers
-- **highlights**: 
-  - HTTP/2 performance optimization
-  - Dynamic model switching without restart
-  - Full OpenAI API compatibility
-  - Docker and Traefik integration
+- **custom_description**: OpenAI-compatible proxy that lets Cursor use OpenRouter models with runtime switching.
+- **highlights**:
+  - Problem solved: Cursor expects OpenAI-style APIs, which blocks direct use of many OpenRouter models.
+  - Implementation proof: `proxy.go` implements `/v1/chat/completions`, `/v1/models`, and model switch endpoints (`/v1/config`, `/switch-model`) with Docker and Traefik deployment files.
+  - Limitation/risk: Requires Cursor Pro plus an OpenRouter API key, and is dependent on upstream provider availability and pricing.
 - **tags**: Go, Docker, AI, Proxy, HTTP/2, LLM, DevTools
 
 ### ⭐ Whisper-to-Notion (2 stars)
@@ -36,13 +41,12 @@ For each repository, you can configure:
 - **Created**: 2024-01-03
 - **Last Updated**: 2025-02-07
 - **include_in_cv**: true
-- **priority**: 2
-- **custom_description**: AI-powered voice-to-text note-taking system integrating Whisper, GPT, and Notion with iOS Shortcuts
+- **priority**: 3
+- **custom_description**: Voice-capture workflow that turns spoken ideas into structured Notion entries with Whisper, GPT, and Siri Shortcuts.
 - **highlights**:
-  - Voice-to-text with AI enrichment
-  - iOS Shortcuts integration
-  - Automatic categorization and insights
-  - Multi-destination routing based on content
+  - Problem solved: Capturing ideas on mobile and manually rewriting them into Notion creates friction.
+  - Implementation proof: proof pending / non verifie localement (implementation references not verified in this inventory pass).
+  - Limitation/risk: Depends on iOS Shortcuts and external AI/API services; transcription quality depends on audio quality and prompts.
 - **tags**: Python, AI, Whisper, GPT, Notion, iOS, Automation
 
 ### ⭐ jsonl_dataset_generator (1 star)
@@ -52,14 +56,28 @@ For each repository, you can configure:
 - **Created**: 2025-02-08
 - **Last Updated**: 2025-06-06
 - **include_in_cv**: true
-- **priority**: 3
-- **custom_description**: Multi-provider AI dataset generator for LLM fine-tuning with automated Q&A pair creation
+- **priority**: 4
+- **custom_description**: Multi-provider JSONL dataset generator for LLM fine-tuning workflows.
 - **highlights**:
-  - Multiple AI provider support (OpenAI, Anthropic, Google)
-  - Automated question generation
-  - JSONL export for fine-tuning
-  - Web interface for dataset management
+  - Problem solved: Manual dataset authoring for fine-tuning is slow and hard to scale consistently.
+  - Implementation proof: proof pending / non verifie localement (implementation references not verified in this inventory pass).
+  - Limitation/risk: Generated samples still need human review for quality, factuality, and licensing before model training.
 - **tags**: JavaScript, AI, Machine Learning, Dataset, LLM, Fine-tuning
+
+### PezzosCode
+- **Repository**: https://github.com/pezzos/PezzosCode
+- **Language**: Mixed (Markdown + Python)
+- **Description**: Docs-first bootstrap kit for AI-assisted software delivery.
+- **Created**: 2026-01-19
+- **Last Updated**: 2026-03-02
+- **include_in_cv**: true
+- **priority**: 5
+- **custom_description**: Docs-first bootstrap toolkit that standardizes AI-assisted repo delivery with deterministic scripts and process contracts.
+- **highlights**:
+  - Problem solved: AI-assisted solo projects drift when context, process, and execution tooling are not standardized.
+  - Implementation proof: Includes `tools/bootstrap-into`, `make prepare-features`, `make review-features`, and explicit workflow docs under `docs/04-process/`.
+  - Limitation/risk: Process rigor adds setup overhead and can be heavy for very small throwaway projects.
+- **tags**: Python, Markdown, Developer Tooling, Documentation, AI Workflow
 
 ### ⭐ plex-pi (1 star)
 - **Repository**: https://github.com/pezzos/plex-pi
@@ -67,7 +85,7 @@ For each repository, you can configure:
 - **Description**: The full setup of Plex Media Server on a Raspberry Pi with scripts like S3 backup
 - **Created**: 2021-11-02
 - **Last Updated**: 2025-03-12
-- **include_in_cv**: true
+- **include_in_cv**: false
 - **priority**: 4
 - **custom_description**: Complete Raspberry Pi Plex Media Server setup with automated backups and system optimization
 - **highlights**:
@@ -80,13 +98,16 @@ For each repository, you can configure:
 ### remote-mcp-proxy (0 stars)
 - **Repository**: https://github.com/pezzos/remote-mcp-proxy
 - **Language**: Go
-- **Description**: 
+- **Description**:
 - **Created**: 2025-06-20
 - **Last Updated**: 2025-06-30
 - **include_in_cv**: true
-- **priority**: 8
-- **custom_description**: Remote MCP proxy service
-- **highlights**: []
+- **priority**: 2
+- **custom_description**: Dockerized Go proxy that exposes local MCP servers as Remote MCP endpoints for MCP-compatible clients.
+- **highlights**:
+  - Problem solved: MCP servers that only run locally are not reachable by remote MCP clients without a bridge.
+  - Implementation proof: `main.go` and `proxy/server.go` expose `/sse`, `/sessions/{sessionId}`, `/health`, and `/listmcp`; `config.example.json` documents proxy/server mappings for client setup.
+  - Limitation/risk: Production setup needs wildcard DNS/TLS (Traefik path), and proxy-managed MCP processes increase operational/security surface.
 - **tags**: Go, Proxy, MCP
 
 ### claude-task-master (0 stars)
@@ -110,7 +131,7 @@ For each repository, you can configure:
 - **Description**: This project provides a containerized Ruby development environment that seamlessly integrates with your local machine while maintaining isolation and consistency.
 - **Created**: 2025-01-17
 - **Last Updated**: 2025-06-11
-- **include_in_cv**: true
+- **include_in_cv**: false
 - **priority**: 9
 - **custom_description**: Containerized Ruby development environment
 - **highlights**: []
@@ -148,20 +169,20 @@ For each repository, you can configure:
 - **Last Updated**: 2025-02-14
 - **include_in_cv**: true
 - **priority**: 6
-- **custom_description**: AI-powered productivity tools collection for Raycast
+- **custom_description**: Raycast extension suite for dictation, AI prompting, and local/online speech workflows.
 - **highlights**:
-  - AI-powered automation
-  - Productivity enhancement
-  - Raycast integration
+  - Problem solved: Writing, rewriting, and dictating text across apps causes repetitive context switching.
+  - Implementation proof: `extensions/ai-assistant` ships commands for Dictate Text, Dictate AI Prompt, settings, dictionary/history, and local model management (Whisper/Parakeet).
+  - Limitation/risk: macOS + Raycast dependency, microphone permissions, and optional OpenAI key requirements for cloud modes.
 - **tags**: TypeScript, AI, Raycast, Productivity, macOS
 
 ### wpzo-hosting (0 stars)
 - **Repository**: https://github.com/pezzos/wpzo-hosting
 - **Language**: Shell
-- **Description**: 
+- **Description**:
 - **Created**: 2021-08-16
 - **Last Updated**: 2025-07-01
-- **include_in_cv**: true
+- **include_in_cv**: false
 - **priority**: 10
 - **custom_description**: Hosting automation scripts
 - **highlights**: []
@@ -170,19 +191,19 @@ For each repository, you can configure:
 ### Claude-code-pwa (0 stars)
 - **Repository**: https://github.com/pezzos/Claude-code-pwa
 - **Language**: null
-- **Description**: 
+- **Description**:
 - **Created**: 2025-06-24
 - **Last Updated**: 2025-06-24
 - **include_in_cv**: false
 - **priority**: 10
-- **custom_description**: Claude Code PWA experiment
+- **custom_description**: PWA experiment for AI coding workflows
 - **highlights**: []
-- **tags**: PWA, Claude
+- **tags**: PWA, AI
 
 ### cursor-llm-switch (0 stars)
 - **Repository**: https://github.com/pezzos/cursor-llm-switch
 - **Language**: TypeScript
-- **Description**: 
+- **Description**:
 - **Created**: 2025-02-04
 - **Last Updated**: 2025-03-12
 - **include_in_cv**: false
@@ -206,7 +227,7 @@ For each repository, you can configure:
 ### cursor-auto-rules-agile-workflow (0 stars)
 - **Repository**: https://github.com/pezzos/cursor-auto-rules-agile-workflow
 - **Language**: Shell
-- **Description**: 
+- **Description**:
 - **Created**: 2025-02-21
 - **Last Updated**: 2025-02-21
 - **include_in_cv**: false
@@ -230,7 +251,7 @@ For each repository, you can configure:
 ### cursor-xml-rules-trial (0 stars)
 - **Repository**: https://github.com/pezzos/cursor-xml-rules-trial
 - **Language**: null
-- **Description**: 
+- **Description**:
 - **Created**: 2025-02-21
 - **Last Updated**: 2025-02-21
 - **include_in_cv**: false
@@ -242,7 +263,7 @@ For each repository, you can configure:
 ### raycast-ai-assistant-service (0 stars)
 - **Repository**: https://github.com/pezzos/raycast-ai-assistant-service
 - **Language**: Python
-- **Description**: 
+- **Description**:
 - **Created**: 2025-02-13
 - **Last Updated**: 2025-02-14
 - **include_in_cv**: false
@@ -254,7 +275,7 @@ For each repository, you can configure:
 ### config-icon_converter (0 stars)
 - **Repository**: https://github.com/pezzos/config-icon_converter
 - **Language**: HTML
-- **Description**: 
+- **Description**:
 - **Created**: 2025-02-08
 - **Last Updated**: 2025-02-08
 - **include_in_cv**: false
@@ -293,7 +314,7 @@ For each repository, you can configure:
 - **Description**: Access your Ollama everywhere from a simple Docker setup with Traefik
 - **Created**: 2025-01-24
 - **Last Updated**: 2025-03-16
-- **include_in_cv**: true
+- **include_in_cv**: false
 - **priority**: 9
 - **custom_description**: Ollama deployment with Docker and Traefik
 - **highlights**: []
@@ -302,7 +323,7 @@ For each repository, you can configure:
 ### terraform-azure-metsys-demo1 (0 stars)
 - **Repository**: https://github.com/pezzos/terraform-azure-metsys-demo1
 - **Language**: HCL
-- **Description**: 
+- **Description**:
 - **Created**: 2020-08-26
 - **Last Updated**: 2020-08-27
 - **include_in_cv**: false
@@ -314,7 +335,7 @@ For each repository, you can configure:
 ### scripts (0 stars)
 - **Repository**: https://github.com/pezzos/scripts
 - **Language**: null
-- **Description**: 
+- **Description**:
 - **Created**: 2020-05-24
 - **Last Updated**: 2020-05-24
 - **include_in_cv**: false
@@ -334,10 +355,10 @@ For each repository, you can configure:
    - Add relevant `highlights` to showcase key achievements
    - Verify and update `tags` for proper categorization
 
-2. **After customization**, the system will:
-   - Generate a professional README.md based on your preferences
-   - Sort projects by priority and star count
-   - Group similar technologies together
-   - Highlight your expertise and achievements
+2. **After customization**, the workflow should:
+   - Regenerate `README.md` from the curated metadata
+   - Keep featured projects ordered by configured priority
+   - Preserve bilingual clarity (`FR/EN`) and explicit credibility limits
+   - Avoid fabricated statistics or absolute outcome guarantees
 
 3. **Commit the changes** when you're satisfied with the configuration.

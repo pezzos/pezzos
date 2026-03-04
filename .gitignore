@@ -1,0 +1,13 @@
+.DS_Store
+.offload/
+.codex_subagent/tmp/
+.codex_subagent/sessions/
+__pycache__/
+*.pyc
+scripts/
+.orchestrator/
+tools/
+.agents/
+docs/0*
+docs/AGENTS.md
+docs/README.md

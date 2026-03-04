@@ -1,0 +1,18 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">remote-mcp-proxy project thumbnail</title>
+  <desc id="desc">Remote MCP proxy project card with Dockerized Go implementation details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B3A53"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="34" y="34" width="572" height="54" rx="10" fill="#0F172A" stroke="#155E75"/>
+  <text x="56" y="69" fill="#E0F2FE" font-size="27" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">remote-mcp-proxy</text>
+  <text x="56" y="126" fill="#A5F3FC" font-size="21" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Go | Docker | MCP</text>
+  <text x="56" y="171" fill="#DBEAFE" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Expose local MCP servers</text>
+  <text x="56" y="206" fill="#DBEAFE" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">as remote endpoints for MCP-compatible clients.</text>
+  <rect x="56" y="258" width="182" height="40" rx="10" fill="#0E7490"/>
+  <text x="80" y="284" fill="#ECFEFF" font-size="18" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="600">Ops visibility</text>
+</svg>

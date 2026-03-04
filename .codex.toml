@@ -10,6 +10,18 @@
 # startup_timeout_ms = 30_000
 # request_timeout_ms = 30_000
 
+# Official Notion MCP
 [mcp_servers.notionMCP]
 command = "/opt/homebrew/bin/npx"
 args = ["-y", "mcp-remote", "https://mcp.notion.com/mcp"]
+
+# https://github.com/nspady/google-calendar-mcp
+[mcp_servers.googlecalendar]
+command = "/opt/homebrew/bin/npx"
+args = ["-y", "@cocal/google-calendar-mcp"]
+env = {"GOOGLE_OAUTH_CREDENTIALS"= "/Users/a.pezzotta/gcp-oauth.keys.json"}
+
+# https://github.com/karanb192/reddit-mcp-buddy
+[mcp_servers.reddit]
+command = "/opt/homebrew/bin/npx"
+args = ["-y", "reddit-mcp-buddy"]

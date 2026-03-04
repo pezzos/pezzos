@@ -1,0 +1,18 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">raycast-ai-assistant project thumbnail</title>
+  <desc id="desc">Raycast AI assistant card with dictation and command workflow summary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#243B53"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="34" y="34" width="572" height="54" rx="10" fill="#102A43" stroke="#2CB1BC"/>
+  <text x="56" y="69" fill="#F0F9FF" font-size="27" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">raycast-ai-assistant</text>
+  <text x="56" y="126" fill="#81E6D9" font-size="21" font-family="'Segoe UI', Tahoma, Arial, sans-serif">TypeScript | Raycast | Speech workflow</text>
+  <text x="56" y="171" fill="#E0FCFF" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Desktop commands for dictation,</text>
+  <text x="56" y="206" fill="#E0FCFF" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">prompting, and local or cloud AI modes.</text>
+  <rect x="56" y="258" width="176" height="40" rx="10" fill="#0E7490"/>
+  <text x="80" y="284" fill="#ECFEFF" font-size="18" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="600">Desktop speed</text>
+</svg>

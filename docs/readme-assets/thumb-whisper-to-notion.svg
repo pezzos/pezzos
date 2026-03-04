@@ -1,0 +1,18 @@
+<svg width="640" height="360" viewBox="0 0 640 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Whisper-to-Notion project thumbnail</title>
+  <desc id="desc">Voice notes to Notion automation card with Whisper and GPT workflow mention.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#134E4A"/>
+      <stop offset="1" stop-color="#042F2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="24" fill="url(#bg)"/>
+  <rect x="34" y="34" width="572" height="54" rx="10" fill="#022C22" stroke="#0F766E"/>
+  <text x="56" y="69" fill="#DCFCE7" font-size="28" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="700">Whisper-to-Notion</text>
+  <text x="56" y="126" fill="#99F6E4" font-size="21" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Python | iOS Shortcuts | Notion API</text>
+  <text x="56" y="171" fill="#D1FAE5" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">Capture spoken notes and map them</text>
+  <text x="56" y="206" fill="#D1FAE5" font-size="22" font-family="'Segoe UI', Tahoma, Arial, sans-serif">into structured Notion entries.</text>
+  <rect x="56" y="258" width="188" height="40" rx="10" fill="#0F766E"/>
+  <text x="80" y="284" fill="#F0FDFA" font-size="18" font-family="'Segoe UI', Tahoma, Arial, sans-serif" font-weight="600">Mobile capture</text>
+</svg>
