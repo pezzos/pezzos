@@ -1,7 +1,5 @@
 # Freelance AI | DevOps | SRE
 
-![Freelance AI DevOps SRE banner](docs/readme-assets/banner-pezzos-profile.svg)
-
 Main site: https://pezzos.com
 
 ## EN
